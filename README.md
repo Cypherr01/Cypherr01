@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=1">
-  <img src="./assets/banner-dark.svg?v=1" alt="Ashwini Tiwari — GenAI & Agentic AI Engineer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=2">
+  <img src="./assets/banner-dark.svg?v=2" alt="Ashwini Tiwari — GenAI & Agentic AI Engineer" width="100%"/>
 </picture>
 
 </div>
@@ -14,7 +14,7 @@
 <tr>
 <td width="34%" align="center" valign="top">
 
-<img src="./assets/status-card.svg?v=1" alt="System status card" width="320"/>
+<img src="./assets/status-card.svg?v=2" alt="System status card" width="320"/>
 
 </td>
 <td width="66%" valign="top">
@@ -48,7 +48,7 @@ A full autonomous AI operating system built from scratch: a 7-node LangGraph rea
 
 ### 🤖 Commitra — the pipeline that's building this GitHub graph for me
 
-<img src="./assets/pipeline-commitra.svg?v=1" alt="Commitra live pipeline status" width="100%"/>
+<img src="./assets/pipeline-commitra.svg?v=2" alt="Commitra live pipeline status" width="100%"/>
 
 </div>
 
@@ -82,11 +82,11 @@ Commitra is a cron-driven educational engine I built and run myself: every day i
 
 ## `> stack --resolved`
 
-<img src="./assets/dashboard.svg?v=1" alt="Skills and stack" width="100%"/>
+<img src="./assets/dashboard.svg?v=2" alt="Skills and stack" width="100%"/>
 
 ## `> milestones`
 
-<img src="./assets/milestones.svg?v=1" alt="Milestones" width="100%"/>
+<img src="./assets/milestones.svg?v=2" alt="Milestones" width="100%"/>
 
 <br/><br/>
 
