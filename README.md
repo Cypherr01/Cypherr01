@@ -102,7 +102,7 @@ Commitra is a cron-driven educational engine I built and run myself: every day i
 
 <br/><br/>
 
-*7 public repos // updated automatically, not manually.*
+*8 public repos // updated automatically, not manually.*
 
 </div>
 
