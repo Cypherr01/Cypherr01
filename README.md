@@ -1,18 +1,14 @@
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=3">
   <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=3">
-  <img src="./assets/banner-dark.svg?v=3" alt="Ashwini Tiwari — GenAI & Agentic AI Engineer" width="100%"/>
+  <img src="./assets/banner-dark.svg?v=3" alt="Ashwini Tiwari — AI Systems Engineer" width="100%"/>
 </picture>
-
-</div>
 
 <br/>
 
-<table align="center" border="0">
+<table border="0" width="100%">
 <tr>
-<td width="34%" align="center" valign="top">
+<td width="34%" align="left" valign="top">
 
 <img src="./assets/status-card.svg?v=3" alt="System status card" width="320"/>
 
@@ -21,9 +17,24 @@
 
 ### `cat about.md`
 
-GenAI & Agentic AI Engineer, 2+ years shipping production agentic systems at **Hexaware Technologies**. Built **Quido**, an enterprise Agentic RAG platform (Python / FastAPI / Azure OpenAI) that cut repetitive L&D support queries by 70% and freed 106+ man-days a year for a Fortune 500 client. Independently designed **ARIA**, a full autonomous AI operating system — LangGraph reasoning core, multi-model router, 3-tier memory, 5 specialist agents. Enterprise Java depth from a 50+ repo AWS migration at Delta Air Lines.
+```
+$ whoami
+ai systems engineer -- pune, in (open to relocation)
 
-Also currently running **Commitra** — an autonomous pipeline that teaches itself Python, SQL and Java in public, one commit a day, no human in the loop. It's what powers the live panel below.
+$ cat experience.log
+[jan 2024 - apr 2026]  hexaware technologies
+                        genai & agentic ai + java backend, 2+ yrs
+                        - built quido, hexavarsity's agentic rag assistant
+                        - migrated 50+ legacy repos to aws (delta air lines)
+
+[apr 2026 - present]   independent, post-hexaware
+                        - designed + built aria from scratch: 3 phases, 6 weeks
+                        - running commitra: a self-teaching, daily-commit engine
+
+$ cat status.log
+open to ai systems / agentic engineering roles.
+commitra is what's driving the live panel below -- no manual edits.
+```
 
 </td>
 </tr>
@@ -31,38 +42,83 @@ Also currently running **Commitra** — an autonomous pipeline that teaches itse
 
 <br/>
 
-<div align="center">
-
 ## `> projects --featured`
 
-</div>
+### QUIDO -- AGENTIC RAG SYSTEM
+Built at Hexaware, for Hexavarsity L&D
+- Stack: Python -- FastAPI -- LangGraph -- LangChain -- Azure OpenAI -- BM25 -- Azure
 
-### 🧠 ARIA — Agentic Reasoning & Intelligence Architecture
-**[Cypherr01/Aria](https://github.com/Cypherr01/Aria)** · Python · LangGraph · FastAPI · Gemini / Groq / Cohere
+<img src="./assets/quido-pipeline.svg?v=1" alt="Quido agentic RAG pipeline" width="100%"/>
 
-A full autonomous AI operating system built from scratch: a 7-node LangGraph reasoning core (Intent → Memory → Plan → Execute → Reflect → Synthesize → Write), a multi-model router health-checking 6 LLMs across 4 providers, 3-tier memory with time-decay, an 8-tool suite, and a Responsible AI layer running inline on every input and output. 3 phases shipped in 6 weeks, 168 tests passing, Phase 4 (voice + multi-user + plugin system) in progress.
+```
+$ cat quido/CHANGELOG.md
+
+v1.0 -- production rag assistant
+  - hybrid retrieval: dense (chromadb) + sparse bm25 + cross-encoder rerank
+  - modular pipeline: qaorchestrator -> retriever -> guardrails -> formatter
+  - hallucination check via sentence-level cosine similarity + grounding
+  - rbac (13 scopes), jwt auth, pii redaction, prompt-injection prevention
+  - result: 70% of support query volume eliminated, 106+ man-days saved/yr
+
+v2.0 -- agentic rewrite (same codebase, self-directed)
+  - fixed intent -> retrieval -> answer sequence replaced with a langgraph
+    conditional-routing graph -- agent decides retrieval necessity, tool
+    selection, and query decomposition per request
+  - multi-hop retrieval loop: reflectionagent scores groundedness and
+    completeness via cosine similarity, triggers bounded re-retrieval
+  - multi-part questions decomposed into sub-queries, run in parallel via
+    asyncio.gather, each through the hybrid retrieval pipeline
+  - central toolrouter: retrieval, calculation, lms read/write -- single-
+    purpose rag became general-purpose task execution
+
+no public repo -- built inside hexaware's codebase. diagram above is the
+closest thing to a walkthrough.
+```
 
 <br/>
 
-<div align="center">
+### WORKFLOW AUTOMATION -- POWER PLATFORM
+Built at Hexaware, for Hexavarsity L&D
+- Stack: Power Automate -- Microsoft Graph API -- Outlook -- Teams
 
-### 🤖 Commitra — the pipeline that's building this GitHub graph for me
+<img src="./assets/automate-pipeline.svg?v=1" alt="Workflow automation pipeline" width="100%"/>
+
+```
+$ cat automate/PIPELINE.log
+
+[trigger]   scheduled + form-based triggers kick off the flow
+[automate]  power automate + graph api -- teams messaging, outlook mail-merge
+[user]      personalized message lands in teams + inbox, ack tracked
+[owner]     responses roll up into a management dashboard, org-wide
+
+result: 80%+ reduction in manual coordination effort, l&d + hr, org-wide
+```
+
+<br/>
+
+### COMMITRA -- SELF-TEACHING PIPELINE
+Independent, post-Hexaware
+- Stack: Python -- GitHub Actions -- LLM cascade (multi-provider)
 
 <img src="./assets/pipeline-commitra.svg?v=3" alt="Commitra live pipeline status" width="100%"/>
 
-</div>
-
-Commitra is a cron-driven educational engine I built and run myself: every day it picks the next topic from a roadmap, generates phase-aware, project-anchored lesson content through an LLM cascade, commits it to a public repo, and emails me a copy — zero manual intervention, and the invariant holds everywhere: **code controls the pipeline, the LLM only fills content.**
+Commitra is a cron-driven engine I built and run myself: every day it picks the next topic from a roadmap, generates phase-aware, project-anchored lesson content through an LLM cascade, commits it to a public repo, and emails me a copy. Zero manual intervention. The invariant holds everywhere: **code controls the pipeline, the LLM only fills content.**
 
 <details>
-<summary><b>→ expand: how it actually works</b></summary>
-<br/>
+<summary>expand -- how it actually works</summary>
 
-- **Roadmap** — a `.md` file per language defines the phase-by-phase curriculum; dropping a new one in `roadmap/` is the entire onboarding step.
-- **LLM Cascade** — content generation proactively rotates across models before hitting token limits, rather than waiting for a call to fail.
-- **Commit** — each lesson is validated against the "History Rule" (only concepts already introduced may be used) before it's written to the repo.
-- **Notify** — an HTML email goes out with the full lesson the moment it lands.
-- The numbers in the panel above aren't typed in by hand — a separate [GitHub Action](./.github/workflows/update-profile.yml) reads the three repos below every day and regenerates that SVG.
+```
+$ cat commitra/PIPELINE.log
+
+[roadmap]      .md file per language defines the phase-by-phase curriculum
+[llm cascade]  rotates across models proactively, before hitting token limits
+[commit]       validated against the "history rule" -- only prior concepts allowed
+[notify]       html email fires the moment the lesson lands
+
+note: the numbers in the diagram above aren't typed by hand -- a separate
+github action (.github/workflows/update-profile.yml) reads the three repos
+below every day and regenerates it.
+```
 
 </details>
 
@@ -72,15 +128,35 @@ Commitra is a cron-driven educational engine I built and run myself: every day i
 
 | Language | Repo | Description |
 |:---|:---|:---|
-| 🐍 Python | [commitra-python](https://github.com/Cypherr01/commitra-python) | Foundations → DSA → backend engineering → LLMs & agentic AI |
-| 🗄️ SQL | [commitra-sql](https://github.com/Cypherr01/commitra-sql) | Relational foundations → MySQL/PostgreSQL internals → production ops |
-| ☕ Java | [commitra-java](https://github.com/Cypherr01/commitra-java) | Core Java → Spring ecosystem → microservices → Spring AI |
+| PYTHON | [commitra-python](https://github.com/Cypherr01/commitra-python) | foundations -> dsa -> backend engineering -> llms & agentic ai |
+| SQL | [commitra-sql](https://github.com/Cypherr01/commitra-sql) | relational foundations -> mysql/postgresql internals -> production ops |
+| JAVA | [commitra-java](https://github.com/Cypherr01/commitra-java) | core java -> spring ecosystem -> microservices -> spring ai |
 
 <br/>
 
-<div align="center">
+### ARIA -- AGENTIC AI SYSTEM
+Independent, post-Hexaware -- **[Cypherr01/Aria](https://github.com/Cypherr01/Aria)**
+- Stack: Python -- LangGraph -- FastAPI -- Gemini / Groq / Cohere
 
-## `> stack --resolved`
+<img src="./assets/aria-pipeline.svg?v=1" alt="ARIA reasoning pipeline" width="100%"/>
+
+```
+$ cat aria/ARCHITECTURE.log
+
+[graph]   7-node langgraph core -- intent -> memory -> plan -> execute ->
+          reflect -> synthesize -> remember
+[router]  multi-model router, health-checked across 6 llms / 4 providers
+[memory]  3-tier -- working (summarized) / episodic (time-decayed) / semantic (rag)
+[tools]   8-tool suite behind a central registry
+[safety]  responsible-ai layer running inline on every input and output
+
+status: phase 4 of 4 in progress (voice, multi-user, plugin system)
+shipped: 3 phases in 6 weeks, 168 tests written, 85% passing
+```
+
+<br/>
+
+## `> stack -- what-i-build-with`
 
 <img src="./assets/dashboard.svg?v=3" alt="Skills and stack" width="100%"/>
 
@@ -88,24 +164,19 @@ Commitra is a cron-driven educational engine I built and run myself: every day i
 
 <img src="./assets/milestones.svg?v=3" alt="Milestones" width="100%"/>
 
-<br/><br/>
+<br/>
 
 ### `> connect with - Ashwini`
 
 <a href="mailto:ashwinco7524@gmail.com"><img src="https://img.shields.io/badge/Email-A56F63?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://github.com/Cypherr01"><img src="https://img.shields.io/badge/GitHub-0F3040?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/ashwini-tiwari-83a65421a"><img src="https://img.shields.io/badge/LinkedIn-464858?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/_cipher01_?igsi=MXBiaGRnMDVwMDE2eQ=="><img src="https://img.shields.io/badge/Instagram-D99B7F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 
-<br/><br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Cypherr01&color=a56f63&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
-<br/><br/>
+<br/>
 
-*8 public repos // updated automatically, not manually.*
-
-</div>
-
-
-
-this avatar which is being reflected in the the banner and status card...is there anything that we can change that and make it look more human
+*7 public repos — updated automatically, because apparently even my portfolio has a DevOps team.*
