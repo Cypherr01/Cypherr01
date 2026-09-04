@@ -18,7 +18,7 @@
 ### `cat about.md`
 
 ```
-$ whoami
+$ who_am_i
 ai systems engineer -- pune, in (open to relocation)
 
 $ cat experience.log
