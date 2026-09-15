@@ -134,6 +134,12 @@ below every day and regenerates it.
 
 <br/>
 
+### `cat contributions.log`
+
+<img src="./assets/contributions.svg?v=18" alt="Contribution activity" width="100%"/>
+
+<br/>
+
 ### ARIA -- AGENTIC AI SYSTEM
 Independent, post-Hexaware -- **[Cypherr01/Aria](https://github.com/Cypherr01/Aria)**
 - Stack: Python -- LangGraph -- FastAPI -- Gemini / Groq / Cohere
@@ -163,12 +169,6 @@ shipped: 3 phases in 6 weeks, 168 tests written, 85% passing
 ## `> milestones`
 
 <img src="./assets/milestones.svg?v=18" alt="Milestones" width="100%"/>
-
-<br/>
-
-### `cat contributions.log`
-
-<img src="./assets/contributions.svg?v=18" alt="GitHub contribution log" width="100%"/>
 
 <br/>
 
