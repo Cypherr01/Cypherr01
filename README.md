@@ -134,12 +134,6 @@ below every day and regenerates it.
 
 <br/>
 
-### `cat contributions.log`
-
-<img src="./assets/contributions.svg?v=19" alt="Contribution activity" width="100%"/>
-
-<br/>
-
 ### ARIA -- AGENTIC AI SYSTEM
 Independent, post-Hexaware -- **[Cypherr01/Aria](https://github.com/Cypherr01/Aria)**
 - Stack: Python -- LangGraph -- FastAPI -- Gemini / Groq / Cohere
@@ -159,6 +153,12 @@ $ cat aria/ARCHITECTURE.log
 status: phase 4 of 4 in progress (voice, multi-user, plugin system)
 shipped: 3 phases in 6 weeks, 168 tests written, 85% passing
 ```
+
+<br/>
+
+### `cat contributions.log`
+
+<img src="./assets/contributions.svg?v=19" alt="Contribution activity" width="100%"/>
 
 <br/>
 
