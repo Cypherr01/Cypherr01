@@ -42,6 +42,10 @@ commitra is what's driving the live panel below -- no manual edits.
 
 <br/>
 
+<img src="./assets/highlights.svg?v=1" alt="Highlights" width="100%"/>
+
+<br/>
+
 ## `> projects --featured`
 
 ### QUIDO -- AGENTIC RAG SYSTEM
