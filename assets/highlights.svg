@@ -6,17 +6,15 @@
 <g opacity="0">
   <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.00s" fill="freeze"/>
   <animateTransform attributeName="transform" type="translate" values="0 8; 0 0" dur="0.5s" begin="0.00s" fill="freeze"/>
-  <rect x="60.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="64.5" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="69.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+  <rect x="69.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="73.5" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="78.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="60.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="64.5" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="60.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="64.5" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="69.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="73.5" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="78.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="60.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="64.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="69.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="73.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="60.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="78.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="60.0" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="78.0" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
@@ -27,32 +25,36 @@
 <rect x="96.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="100.5" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="87.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="100.5" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="105.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="87.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="96.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="105.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="91.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="87.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="96.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="100.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="105.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="87.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="91.5" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="105.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="100.5" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="87.0" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="105.0" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="91.5" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="96.0" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="118.5" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="123.0" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="100.5" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="127.5" y="46.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="114.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="132.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="114.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="132.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="118.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="123.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="123.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="127.5" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="118.5" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="127.5" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="114.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="127.5" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="132.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="114.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="118.5" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="123.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="127.5" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="132.0" y="64.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="127.5" y="68.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="118.5" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
-<rect x="123.0" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
+<rect x="127.5" y="73.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="150.0" y="50.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="150.0" y="55.0" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
 <rect x="141.0" y="59.5" width="4.5" height="4.5" fill="#D99B7F" opacity="1" />
