@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=27">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=27">
-  <img src="./assets/banner-dark.svg?v=27" alt="Ashwini Tiwari — AI Systems Engineer" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=28">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg?v=28">
+  <img src="./assets/banner-dark.svg?v=28" alt="Ashwini Tiwari — AI Systems Engineer" width="100%"/>
 </picture>
 
 <br/>
@@ -10,7 +10,7 @@
 <tr>
 <td width="34%" align="left" valign="top">
 
-<img src="./assets/status-card.svg?v=27" alt="System status card" width="320"/>
+<img src="./assets/status-card.svg?v=28" alt="System status card" width="320"/>
 
 </td>
 <td width="66%" valign="top">
@@ -42,7 +42,7 @@ commitra is what's driving the live panel below -- no manual edits.
 
 <br/>
 
-<img src="./assets/highlights.svg?v=27" alt="Highlights" width="100%"/>
+<img src="./assets/highlights.svg?v=28" alt="Highlights" width="100%"/>
 
 <br/>
 
@@ -52,7 +52,7 @@ commitra is what's driving the live panel below -- no manual edits.
 Built at Hexaware, for Hexavarsity L&D
 - Stack: Python -- FastAPI -- LangGraph -- LangChain -- Azure OpenAI -- BM25 -- Azure
 
-<img src="./assets/quido-pipeline.svg?v=27" alt="Quido agentic RAG pipeline" width="100%"/>
+<img src="./assets/quido-pipeline.svg?v=28" alt="Quido agentic RAG pipeline" width="100%"/>
 
 ```
 $ cat quido/CHANGELOG.md
@@ -85,7 +85,7 @@ closest thing to a walkthrough.
 Built at Hexaware, for Hexavarsity L&D
 - Stack: Power Automate -- Microsoft Graph API -- Outlook -- Teams
 
-<img src="./assets/automate-pipeline.svg?v=27" alt="Workflow automation pipeline" width="100%"/>
+<img src="./assets/automate-pipeline.svg?v=28" alt="Workflow automation pipeline" width="100%"/>
 
 ```
 $ cat automate/PIPELINE.log
@@ -104,7 +104,7 @@ result: 80%+ reduction in manual coordination effort, l&d + hr, org-wide
 Independent, post-Hexaware
 - Stack: Python -- GitHub Actions -- LLM cascade (multi-provider)
 
-<img src="./assets/pipeline-commitra.svg?v=27" alt="Commitra live pipeline status" width="100%"/>
+<img src="./assets/pipeline-commitra.svg?v=28" alt="Commitra live pipeline status" width="100%"/>
 
 Commitra is a cron-driven engine I built and run myself: every day it picks the next topic from a roadmap, generates phase-aware, project-anchored lesson content through an LLM cascade, commits it to a public repo, and emails me a copy. Zero manual intervention. The invariant holds everywhere: **code controls the pipeline, the LLM only fills content.**
 
@@ -142,7 +142,7 @@ below every day and regenerates it.
 Independent, post-Hexaware -- **[Cypherr01/Aria](https://github.com/Cypherr01/Aria)**
 - Stack: Python -- LangGraph -- FastAPI -- Gemini / Groq / Cohere
 
-<img src="./assets/aria-pipeline.svg?v=27" alt="ARIA reasoning pipeline" width="100%"/>
+<img src="./assets/aria-pipeline.svg?v=28" alt="ARIA reasoning pipeline" width="100%"/>
 
 ```
 $ cat aria/ARCHITECTURE.log
@@ -162,17 +162,17 @@ shipped: 3 phases in 6 weeks, 168 tests written, 85% passing
 
 ### `cat contributions.log`
 
-<img src="./assets/contributions.svg?v=27" alt="Contribution activity" width="100%"/>
+<img src="./assets/contributions.svg?v=28" alt="Contribution activity" width="100%"/>
 
 <br/>
 
 ## `> stack -- what-i-build-with`
 
-<img src="./assets/dashboard.svg?v=27" alt="Skills and stack" width="100%"/>
+<img src="./assets/dashboard.svg?v=28" alt="Skills and stack" width="100%"/>
 
 ## `> milestones`
 
-<img src="./assets/milestones.svg?v=27" alt="Milestones" width="100%"/>
+<img src="./assets/milestones.svg?v=28" alt="Milestones" width="100%"/>
 
 <br/>
 
